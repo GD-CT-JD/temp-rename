@@ -1,0 +1,57 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fcfcfc;
+    font-family: Arial, sans-serif;
+    color: #14233C;
+}
+
+.logo {
+    width: 8.5rem;
+    padding: 0.4rem 1rem;
+}
+
+.Nav-bar {
+    background-color: #14233C;
+}
+
+.Add-student {
+    margin-top: 3rem;
+}
+
+input {
+    margin: 0rem 0.1rem;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #636D9C;
+    border-radius: 5px;
+    height: 1.5rem;
+    font-size: 1rem;
+    color: #14233C;
+}
+
+select {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #636D9C;
+    border-radius:5px;
+    height: 1.75rem;
+    font-size: 1rem;
+}
